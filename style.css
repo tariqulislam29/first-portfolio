@@ -1,0 +1,104 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ .details-div h1{
+    font-size: 50px;
+}
+.details-div span{
+    color: #FFC41E;
+}
+
+.details-div {
+    width: 45%;
+    padding: 5%;
+}
+.details-div p{
+    margin-bottom: 20px;
+}
+.details-div h1{
+    font-size: 50px;
+}
+.image-div {
+    width: 45%;
+}
+
+.top-section
+ {
+     display: flex;
+     background-image: url("images/top-banner.png");
+     background-repeat: no-repeat;
+     margin-bottom: 100px;
+   
+    
+ }
+
+ .image-div img{
+     width: 80%;
+     margin-top: 20px;
+ }
+ .link-button{
+     background-image:linear-gradient(orange,tomato) ;
+     text-decoration: none;
+     padding: 2% 5%;
+     border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: white;
+ }
+
+ .dream-section{
+     display: flex;
+     background-image: url("images/dream-bg.png");
+     background-repeat: no-repeat;
+     background-position: right;
+     background-position-y: bottom;
+     margin-bottom: 100px;
+ }
+.dream-section .image-div img{
+    padding: 5% 10%;
+
+}
+.dream-section .details-div h1{
+    font-size: 50px;
+}
+.experiences-section h1{
+    font-size: 50px;
+
+}
+.experiences-item h1{
+    font-size: 40px;
+}
+.experiences-section .title{
+    padding-left:5%;
+}
+.experiences-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin-bottom: 70px;
+}
+
+.experiences-item
+{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.experiences-item .item{
+    width: 45%;
+    margin: 0 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2% 5% 5% 2%;
+}
+
+.experiences-item .item h2{
+    color:#FFC41E;
+}
+footer{
+    
+    text-align: center;
+    font-weight: 600;
+}
