@@ -97,6 +97,20 @@ body{
 .experiences-item .item h2{
     color:#FFC41E;
 }
+
+.experiences-item .item1{
+    border-image: linear-gradient(orange, tomato) ;
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+.experiences-item .item2{
+    border-image: linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+
+
+
 footer{
     
     text-align: center;
